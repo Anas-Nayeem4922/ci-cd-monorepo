@@ -5,6 +5,8 @@ import { client } from "@repo/db/client"
 
 const port = 3001;
 
+app.use(express.json());
+
 app.listen(port, () => {
     console.log(`App is listening on port ${port}`);
 });
