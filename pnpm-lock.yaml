@@ -18,6 +18,12 @@ importers:
         specifier: 5.8.2
         version: 5.8.2
 
+  apps:
+    dependencies:
+      esbuild:
+        specifier: ^0.25.1
+        version: 0.25.1
+
   apps/http-backend:
     dependencies:
       '@types/express':
